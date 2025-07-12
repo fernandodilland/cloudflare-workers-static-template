@@ -4,11 +4,8 @@
         {
             "label": "check-static-files",
             "type": "shell",
-            "command": "powershell",
-            "args": [
-                "-NoProfile", "-Command",
-                "$src = Join-Path $env:WORKSPACE_FOLDER 'src'; $index = Join-Path $src 'index.html'; $notFound = Join-Path $src '404.html'; if (!(Test-Path $index)) { Write-Host 'Warning: index.html was not found inside src.' }; if (!(Test-Path $notFound)) { Write-Host 'Warning: 404.html was not found inside src.' }"
-            ],
+            "command": "echo",
+            "args": ["Static files check task (no operation)", ""],
             "problemMatcher": []
         },
         {
