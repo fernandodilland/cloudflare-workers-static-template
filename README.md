@@ -1,4 +1,8 @@
 
+# Cloudflare Workers Static Site Template
+
+> **Note:** Place all your static files inside the `src` folder. It is recommended to create a main page as `index.html` and a `404.html` page for non-existent routes.
+
 
 # Cloudflare Workers Static Site Template
 
