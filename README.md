@@ -1,6 +1,6 @@
 # Cloudflare Workers Static Site Template
 
-**Demo:** https://change-this.fernando-dilland.workers.dev/
+**Demo:** https://change-this.fernandodilland.workers.dev/
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/fernandodilland/cloudflare-workers-static-template)
 
