@@ -12,6 +12,18 @@
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "prepare-404-file",
             "console": "integratedTerminal"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Wrangler Deploy",
+            "runtimeExecutable": "wrangler",
+            "args": [
+                "deploy"
+            ],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "prepare-404-file",
+            "console": "integratedTerminal"
         }
     ]
 }

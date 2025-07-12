@@ -15,11 +15,23 @@ It is recommended to open this project with Visual Studio Code for the best expe
 - Node.js (latest LTS recommended)
 - Wrangler (Cloudflare Workers CLI)
 
+
 ## Local Testing in VS Code
 
 1. Open the project in Visual Studio Code.
 2. Go to the "Run and Debug" panel.
-3. Select and run "Run Wrangler Dev".
+3. Select and run **"Run Wrangler Dev"** for local development.
+
+---
+
+## Deploy to Cloudflare in VS Code
+
+1. Open the project in Visual Studio Code.
+2. Go to the "Run and Debug" panel.
+3. Select and run **"Run Wrangler Deploy"** to deploy your static site to Cloudflare.
+
+---
+
 
 ## Local Testing via Terminal
 
@@ -27,6 +39,17 @@ It is recommended to open this project with Visual Studio Code for the best expe
 2. Run:
    ```sh
    wrangler dev
+   ```
+
+---
+
+## Deploy to Cloudflare via Terminal
+
+1. Open a terminal and navigate to the project directory.
+2. Run:
+   ```sh
+   npm run prepare-404-file
+   wrangler deploy
    ```
 
 ---
