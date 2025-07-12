@@ -1,13 +1,13 @@
 
 # Cloudflare Workers Static Site Template
 
+**Demo:** https://change-this.fernando-dilland.workers.dev/
+
 > **Note:** Place all your static files inside the `src` folder. It is recommended to create a main page as `index.html` and a `404.html` page for non-existent routes.
 
 This is a blank template for deploying static projects on Cloudflare Workers without consuming Workers requests.
 
 It is recommended to open this project with Visual Studio Code for the best experience.
-
-
 
 ## Initial Setup
 
