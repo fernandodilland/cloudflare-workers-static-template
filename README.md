@@ -1,2 +1,32 @@
-# cloudflare-workers-static-template
-Project template for Cloudflare Workes of a fully static site with the advantage of not consuming CF Workers usage requests.
+
+
+# Cloudflare Workers Static Site Template
+
+This is a blank template for deploying static projects on Cloudflare Workers without consuming Workers requests.
+
+It is recommended to open this project with Visual Studio Code for the best experience.
+
+## Requirements
+
+- Node.js (latest LTS recommended)
+- Wrangler (Cloudflare Workers CLI)
+
+## Local Testing in VS Code
+
+1. Open the project in Visual Studio Code.
+2. Go to the "Run and Debug" panel.
+3. Select and run "Run Wrangler Dev".
+
+## Local Testing via Terminal
+
+1. Open a terminal and navigate to the project directory.
+2. Run:
+   ```sh
+   wrangler dev
+   ```
+
+---
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).

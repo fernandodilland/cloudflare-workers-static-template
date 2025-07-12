@@ -107,6 +107,9 @@ dist
 # Docusaurus cache and generated files
 .docusaurus
 
+# Cloudflare Wrangler local state directory
+.wrangler
+
 # Serverless directories
 .serverless/
 

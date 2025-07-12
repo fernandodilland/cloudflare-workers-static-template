@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "check-static-files",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile", "-Command",
+                "$src = Join-Path $env:WORKSPACE_FOLDER 'src'; $index = Join-Path $src 'index.html'; $notFound = Join-Path $src '404.html'; if (!(Test-Path $index)) { Write-Host 'Warning: index.html was not found inside src.' }; if (!(Test-Path $notFound)) { Write-Host 'Warning: 404.html was not found inside src.' }"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "check-wrangler",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile", "-Command",
+                "if (-not (Get-Command wrangler -ErrorAction SilentlyContinue)) { Write-Host 'Warning: Wrangler is not installed. Please install it globally with npm install -g wrangler.'; exit 1 }"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
