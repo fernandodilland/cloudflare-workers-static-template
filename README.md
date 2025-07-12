@@ -1,7 +1,8 @@
-
 # Cloudflare Workers Static Site Template
 
 **Demo:** https://change-this.fernando-dilland.workers.dev/
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/fernandodilland/cloudflare-workers-static-template)
 
 > **Note:** Place all your static files inside the `src` folder. It is recommended to create a main page as `index.html` and a `404.html` page for non-existent routes.
 
