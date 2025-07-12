@@ -7,6 +7,18 @@ This is a blank template for deploying static projects on Cloudflare Workers wit
 
 It is recommended to open this project with Visual Studio Code for the best experience.
 
+
+
+## Initial Setup
+
+Before deploying or testing locally, edit the `wrangler.toml` file and replace the value of `name = "change-this"` with your desired project name. For example:
+
+```toml
+name = "my-project"
+```
+
+---
+
 ## Requirements
 
 - Node.js (latest LTS recommended)
