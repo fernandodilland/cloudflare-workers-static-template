@@ -17,6 +17,15 @@
                 "if (-not (Get-Command wrangler -ErrorAction SilentlyContinue)) { Write-Host 'Warning: Wrangler is not installed. Please install it globally with npm install -g wrangler.'; exit 1 }"
             ],
             "problemMatcher": []
-        }
+    },
+    {
+        "label": "prepare-404-file",
+        "type": "shell",
+        "command": "node",
+        "args": [
+            "scripts/prepare-404-file.js"
+        ],
+        "problemMatcher": []
+    }
     ]
 }

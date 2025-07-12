@@ -10,7 +10,7 @@
                 "dev"
             ],
             "cwd": "${workspaceFolder}",
-            "preLaunchTask": "check-wrangler",
+            "preLaunchTask": "prepare-404-file",
             "console": "integratedTerminal"
         }
     ]
